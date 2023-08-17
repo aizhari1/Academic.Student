@@ -77,7 +77,10 @@ document .addEventListener("contextmenu",function(e){e .preventDefault();});
 
 
 
-
+document.addEventListener('keyup',(e)=>{
+	navigator.clipboard.write Text('');
+	alert('screenshot disabled');
+});
 
 
 
